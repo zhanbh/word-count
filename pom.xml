@@ -28,14 +28,6 @@
 			<scope>test</scope>
 		</dependency>
 		<dependency>
-			<groupId>storm</groupId>
-			<artifactId>storm</artifactId>
-			<version>0.8.2</version>
-			<!-- keep storm dependencies out of the shaded jar -->
-			<!-- <scope>provided</scope> -->
-			<scope>provided</scope>
-		</dependency>
-		<dependency>
 			<groupId>org.apache.storm</groupId>
 			<artifactId>storm-core</artifactId>
 			<version>0.9.3</version>
